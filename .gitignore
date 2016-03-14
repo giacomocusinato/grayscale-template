@@ -1,0 +1,14 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Bower components 
+vendor
+
+# Node modules
+node_modules
+
+# Webstorm project folder
+.idea
+
+

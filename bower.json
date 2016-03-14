@@ -1,0 +1,27 @@
+{
+  "name": "grayscale-template",
+  "description": "This is based on the original Greyscale template by Start Bootstrap: http://startbootstrap.com/template-overviews/grayscale/",
+  "main": "gulpfile.js",
+  "authors": [
+    "Giacomo Cusinato"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/giacomocusinato/grayscale-template",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "jquery.easing": "^1.3.1"
+  }
+}

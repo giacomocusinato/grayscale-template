@@ -1,0 +1,29 @@
+{
+  "name": "grayscale-template",
+  "version": "1.0.0",
+  "description": "This is based on the original Greyscale template by Start Bootstrap: http://startbootstrap.com/template-overviews/grayscale/",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giacomocusinato/grayscale-template.git"
+  },
+  "author": "Giacomo Cusinato",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/giacomocusinato/grayscale-template/issues"
+  },
+  "homepage": "https://github.com/giacomocusinato/grayscale-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^3.0.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-serve": "^1.2.0",
+    "wiredep": "^3.0.0"
+  },
+  "dependencies": {
+    "wiredep": "^3.0.0"
+  }
+}
