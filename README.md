@@ -1,11 +1,17 @@
-# Greyscale Template
-
 This is based on the original Greyscale template by Start Bootstrap: http://startbootstrap.com/template-overviews/grayscale/
 
 ## What's new?
 
-I will add Gulp build system, Sass for styles and Bower for managing front-end dependencies.   
+Gulp as the build system, Sass for styling and Bower in order to manage front-end dependencies.   
 
+## How to get started
+
+You need to have Gulp and Bower installed globally in order to get started.
+You can use npm: `npm install -g gulp bower`
+
+- `npm install` in order to install the required Node modules
+- `bower install` in order to install the required Bower packages
+- `gulp serve` you're done!
 
 ##  Original Creator Notes
 
