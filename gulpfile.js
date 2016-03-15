@@ -46,6 +46,10 @@ gulp.task('html', ['css', 'js'], function() {
         .pipe(gulp.dest('./dist'));
 });
 
+gulp.watch('./public/assets/sass/*.scss', ['css']);
+gulp.watch('./public/js/*.js', ['js']);
+gulp.watch('./public/index.html', ['html']);
+
 gulp.task('build', ['html', 'css', 'js', 'fonts', 'images']);
 
 gulp.task('serve', ['build'], serve('./dist'));
